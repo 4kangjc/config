@@ -3,7 +3,7 @@
  sudo add-apt-repository ppa:ubuntu-toolchain-r/test
  sudo apt-get update
  sudo apt install gcc-11 g++-11
- cd /bin/usr
+ cd /usr/bin
  sudo rm gcc g++
  sudo ln -s gcc-11 gcc
  sudo ln -s g++-11 g++
