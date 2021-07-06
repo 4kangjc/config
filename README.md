@@ -1,3 +1,3 @@
 # config
-chmod 744 run.sh
-sudo ./run.sh
+chmod 744 run.sh  
+sudo ./run.sh  
