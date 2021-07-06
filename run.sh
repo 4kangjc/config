@@ -4,9 +4,9 @@
  sudo apt-get update
  sudo apt install gcc-11 g++-11
  cd /bin/usr
- #sudo rm gcc g++
- #sudo ln -s gcc-11 gcc
- #sudo ln -s g++-11 g++
+ sudo rm gcc g++
+ sudo ln -s gcc-11 gcc
+ sudo ln -s g++-11 g++
  #sudo apt install flex texinfo
  #cd ~ && mkdir DownLoad
  #cd DownLoad
