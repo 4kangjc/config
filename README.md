@@ -1,2 +1,2 @@
 # config
-sudo sh run.sh
+sudo sh Ubuntu.sh or ArchLinux.sh
