@@ -1,5 +1,5 @@
  #! /bin/bash
- sudo apt install vim g++ gcc golang gdb tree curl net-tools tcpdump libboost-all-dev openssh-server
+ sudo apt install git vim g++ gcc golang gdb tree curl net-tools tcpdump libboost-all-dev openssh-server
  sudo apt-get install software-properties-common
  sudo add-apt-repository ppa:ubuntu-toolchain-r/test
  sudo apt-get update
