@@ -17,4 +17,6 @@
  #./configure –prefix=/usr/local
  #sudo make && make install
  sudo apt install cgdb
+ sudo apt install python3-pip
+ sudo pip install gdbgui --upgrade
  echo 'finish!'
