@@ -8,15 +8,9 @@
  sudo rm gcc g++
  sudo ln -s gcc-11 gcc
  sudo ln -s g++-11 g++
- #sudo apt install flex texinfo
- #cd ~ && mkdir DownLoad
- #cd DownLoad
- #wget http://cgdb.me/files/cgdb-0.7.0.tar.gz
- #tar -zvxf cgdb-0.7.0.tar.gz
- #cd cgdb-0.7.0
- #./configure –prefix=/usr/local
- #sudo make && make install
  sudo apt install cgdb
- sudo apt install python3-pip
- sudo pip install gdbgui --upgrade
+ # sudo apt install python3-pip           安装gdbgui
+ # sudo pip install gdbgui --upgrade
+ # sudo apt install firefox               安装firefox
+ # sudo apt install chromium 	          安装chromium
  echo 'finish!'
