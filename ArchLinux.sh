@@ -1,6 +1,9 @@
 #! /bin/bash
 sudo pacman -Syu
-sudo pacman -S wget git vim gcc go gdb yay cgdb tree curl lsof inetutils gnu-netcat net-tools tcpdump boost openssh man man-pages neofetch
+sudo pacman -S gcc boost go vim gdb cgdb
+sudo pacman -S git wget yay tree curl
+sudo pacman -S lsof inetutils gnu-netcat net-tools tcpdump 
+sudo pacman -S openssh man man-pages neofetch
 locale-gen "en_US.UTF-8"
 locale-gen "zh_CN.UTF-8"
 sudo pacman -S zsh
