@@ -1,11 +1,11 @@
 #! /bin/bash
 sudo pacman -Syu
 sudo pacman -S gcc boost go vim gdb cgdb
-sudo pacman -S git wget yay tree curl
+sudo pacman -S git wget tree curl
 sudo pacman -S lsof inetutils gnu-netcat net-tools tcpdump 
 sudo pacman -S openssh man man-pages neofetch
-locale-gen "en_US.UTF-8"
-locale-gen "zh_CN.UTF-8"
+sudo pacman -S archlinuxcn-keyring  
+sudo pacman -S yay
 sudo pacman -S zsh
 sh -c "$(wget https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh -O -)"
 chsh -s /bin/zsh
