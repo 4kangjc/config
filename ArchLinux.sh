@@ -7,6 +7,7 @@ sudo pacman -S openssh man man-pages neofetch
 sudo pacman -S archlinuxcn-keyring  
 sudo pacman -S yay
 sudo pacman -S zsh oh-my-zsh-git
+cp /usr/share/oh-my-zsh/zshrc ~/.zshrc
 # 以下为桌面端环境
 # git clone --depth=1 https://gitee.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
 # sudo pacman -S python-pip
