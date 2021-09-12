@@ -4,6 +4,8 @@ sudo pacman -S gcc boost go vim gdb cgdb
 sudo pacman -S git wget tree curl
 sudo pacman -S lsof inetutils gnu-netcat net-tools tcpdump 
 sudo pacman -S openssh man man-pages neofetch
+sudo pacman -S yaml-cpp ragel bazel
+sudo archlinux-java set java-11-openjdk
 #sudo pacman -S archlinuxcn-keyring  
 #sudo pacman -S yay
 #sudo pacman -S zsh oh-my-zsh-git
