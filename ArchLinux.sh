@@ -6,7 +6,7 @@ sudo pacman -S lsof inetutils gnu-netcat net-tools tcpdump
 sudo pacman -S openssh man man-pages neofetch
 sudo pacman -S yaml-cpp ragel bazel
 sudo archlinux-java set java-11-openjdk
-#sudo pacman -S archlinuxcn-keyring  
+#sudo pacman -S archlinuxcn-keyring                     #先加入archcn源
 #sudo pacman -S yay
 #sudo pacman -S zsh oh-my-zsh-git
 #cp /usr/share/oh-my-zsh/zshrc ~/.zshrc
@@ -16,7 +16,7 @@ sudo archlinux-java set java-11-openjdk
 # sudo pip install gdbgui --upgrade gdbgui 不知道为什么打不开
 # sudo pacman -S chromium                                                     #安装chrominum
 # sudo pacman -S firefox                                                      #安装firefox
-# sudo pacman -S google-chrome                                                #安装google-chrome
+# yay -S google-chrome                                                        #安装google-chrome
 # yay -S microsoft-edge-dev-bin                                               #安装edge
 # sudo pacman -S ntfs-3g                                                      #识别NTFS格式的硬盘
 # sudo pacman -S adobe-source-han-serif-cn-fonts wqy-zenhei                   #安装几个开源中文字体 一般装上文泉驿就能解决大多wine应用中文方块的问题
