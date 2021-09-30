@@ -10,10 +10,9 @@ sudo archlinux-java set java-11-openjdk
 #sudo pacman -S yay
 #sudo pacman -S zsh oh-my-zsh-git
 #cp /usr/share/oh-my-zsh/zshrc ~/.zshrc
+#yay -S vim-youcompleteme-git                                                 #vim c++ 代码提示
 # 以下为桌面端环境
 # git clone --depth=1 https://gitee.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
-# sudo pacman -S python-pip
-# sudo pip install gdbgui --upgrade gdbgui 不知道为什么打不开
 # sudo pacman -S chromium                                                     #安装chrominum
 # sudo pacman -S firefox                                                      #安装firefox
 # yay -S google-chrome                                                        #安装google-chrome
