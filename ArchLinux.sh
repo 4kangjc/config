@@ -1,12 +1,13 @@
 #! /bin/bash
 sudo pacman -Syu
-sudo pacman -S gcc boost go vim gdb cgdb
+sudo pacman -S gcc boost go vim gdb cgdb python
 sudo pacman -S git wget tree curl
 sudo pacman -S lsof inetutils gnu-netcat net-tools tcpdump 
 sudo pacman -S openssh man man-pages neofetch
-sudo pacman -S yaml-cpp ragel bazel
+sudo pacman -S yaml-cpp jsoncpp fmt ragel bazel
 sudo archlinux-java set java-11-openjdk
 sudo pacman -S mysql gnome-keyring mysql-workbench
+sudo pacman -S sqlite
 #sudo pacman -S archlinuxcn-keyring                     #先加入archcn源
 #sudo pacman -S yay
 #sudo pacman -S zsh oh-my-zsh-git
@@ -24,7 +25,7 @@ sudo pacman -S mysql gnome-keyring mysql-workbench
 # sudo pacman -S ark                                                          #与dolphin同用右键解压 注意可同时安装可选解压支持项
 # sudo pacman -S packagekit-qt5 packagekit appstream-qt appstream             #确保Discover(软件中心）可用 需重启
 # sudo pacman -S gwenview                                                     #图片查看器
-# 输入f法
+# 输入法
 # sudo pacman -S fcitx5-im
 # sudo pacman -S fcitx5-chinese-addons                                        #官方中文输入引擎
 # sudo pacman -S fcitx5-material-color                                        #主题
