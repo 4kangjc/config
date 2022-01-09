@@ -6,6 +6,7 @@ sudo pacman -S lsof inetutils gnu-netcat net-tools tcpdump
 sudo pacman -S openssh man man-pages neofetch
 sudo pacman -S yaml-cpp ragel bazel
 sudo archlinux-java set java-11-openjdk
+sudo pacman -S mysql gnome-keyring mysql-workbench
 #sudo pacman -S archlinuxcn-keyring                     #先加入archcn源
 #sudo pacman -S yay
 #sudo pacman -S zsh oh-my-zsh-git
