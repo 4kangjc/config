@@ -38,5 +38,8 @@ sudo pacman -S mysql gnome-keyring mysql-workbench
 # sudo pacman -S typora 						                              #记笔记
 # sudo pacman -S latte-dock					  	                              #dock栏
 # sudo pacman -S postman                                                      #postman
+# sudo pacman -S libreoffice-still libreoffice-still-zh-cn                    #word, ppt
+
+
 
 echo 'finish'
