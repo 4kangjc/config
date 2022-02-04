@@ -14,6 +14,8 @@
  sudo apt install cgdb
  sudo apt install zsh
  sh -c "$(wget https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"
+ sudo apt install libfmt-dev libyaml-cpp-dev libjsoncpp-dev ragel
+ sudo apt install mysql-server mysql-client sqlite3
  # sudo apt install python3-pip           安装gdbgui
  # sudo pip install gdbgui --upgrade
  # sudo apt install firefox               安装firefox
