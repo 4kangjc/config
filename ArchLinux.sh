@@ -19,7 +19,10 @@ sudo pacman -S sqlite
 sudo pacman -S zsh 
 # 下载yay 
 yay -S oh-my-zsh-git
+yay -S zsh-syntax-highlighting zsh-autosuggestions autojump
 cp /usr/share/oh-my-zsh/zshrc ~/.zshrc
+echo source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh >> ~/.zshrc
+echo source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh >> ~/.zshrc
 #yay -S vim-youcompleteme-git                                                 #vim c++ 代码提示
 # 以下为桌面端环境
 # git clone --depth=1 https://gitee.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
