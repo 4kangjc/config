@@ -18,6 +18,7 @@ sudo pacman -S mysql gnome-keyring mysql-workbench
 sudo pacman -S sqlite
 sudo pacman -S zsh 
 # 下载yay 
+yay -S mbedtls-git
 yay -S oh-my-zsh-git
 yay -S zsh-syntax-highlighting zsh-autosuggestions autojump
 cp /usr/share/oh-my-zsh/zshrc ~/.zshrc
