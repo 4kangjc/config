@@ -9,7 +9,7 @@ sudo mv .vpn /bin/
 source .vpn
 sudo pacman -Syu
 sudo pacman -S gcc boost go vim gdb cgdb python cmake
-sudo pacman -S git wget tree curl
+sudo pacman -S git wget tree curl htop
 sudo pacman -S lsof inetutils gnu-netcat net-tools tcpdump 
 sudo pacman -S openssh man man-pages neofetch
 sudo pacman -S yaml-cpp jsoncpp fmt ragel bazel
